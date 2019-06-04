@@ -1,0 +1,7 @@
+check the number of core in the machine
+cat /proc/cpuinfo
+if number of core is 1 the execute the below command once, if 2 then execute twice and so on.
+yes > /dev/null &
+jobs                : check background processes.
+fg 1
+ctrl+c          : to terminate the process.
